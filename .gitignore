@@ -1,0 +1,21 @@
+# Ambiente e cache do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Vídeos, registros e evidências gerados pelo programa (podem ter imagens de pessoas)
+eventos/
+evidencias/
+*.mp4
+*.avi
+
+# Pesos do YOLO (baixados automaticamente na primeira execução)
+*.pt
+
+# Build do executável (PyInstaller)
+build/
+dist/
+
+# Chaves e configurações locais
+.env
