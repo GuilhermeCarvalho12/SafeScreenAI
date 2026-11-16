@@ -1,0 +1,18 @@
+# SafeScreen.AI - dependências
+# Python 3.12 recomendado (o PyTorch deu erro de DLL no Python 3.14)
+# Instalar com:  pip install -r requirements.txt
+
+# Processamento de imagens e sinais
+opencv-python>=4.8      # captura, cinza, diferença entre frames, threshold, contornos, gravação
+numpy>=1.26             # FFT 2D (np.fft.fft2 / ifft2) e operações em matrizes
+
+# Detecção de objetos (instala também o PyTorch)
+ultralytics>=8.1        # YOLOv8n pré-treinado no COCO
+
+# Interface
+pillow>=10.0            # mostra os frames do OpenCV no Tkinter
+
+# IA generativa e notificações
+google-genai>=1.0       # Gemini (relato do evento e análise de vídeo)
+requests>=2.31          # Groq (chat) e Telegram (API HTTP)
+imageio-ffmpeg>=0.4.9   # converte o vídeo para H.264 antes de enviar ao celular

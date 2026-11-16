@@ -1,0 +1,19 @@
+SAFESCREEN.AI - LEIA
+
+Repositório no GitHub (público):
+https://github.com/GuilhermeCarvalho12/SafeScreenAI.git
+
+O que tem na entrega:
+- Documentação do projeto (.docx): descrição, pipeline do processamento
+  de imagens, integração com IA, requirements e datasets
+- Slides da apresentação (.pdf)
+- LINK DOS DATASETS.txt: links dos datasets utilizados
+- NOME DOS INTEGRANTES.txt: nomes completos da equipe
+
+Arquivo de requirements:
+O requirements.txt está na pasta raiz do projeto, junto do main.py
+(também no repositório do GitHub).
+
+Como executar:
+1. pip install -r requirements.txt
+2. python main.py

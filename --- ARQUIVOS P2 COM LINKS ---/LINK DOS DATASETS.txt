@@ -1,0 +1,9 @@
+LINKS DOS DATASETS - SAFESCREEN.AI
+
+1. COCO 2017 - dataset com 80 classes de objetos em que o YOLOv8n
+   foi treinado (é o que o sistema usa para reconhecer pessoas e objetos)
+   https://cocodataset.org/#download
+
+2. COCO na documentação da Ultralytics - explica o dataset no formato
+   usado pelo YOLOv8
+   https://docs.ultralytics.com/pt/datasets/detect/coco
